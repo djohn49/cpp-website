@@ -24,3 +24,20 @@ h1, h2{
 .inline-pre{
     display: inline;
 }
+
+#button-paragraph, #video-paragraph{
+    text-align: center;
+}
+
+#main-video{
+    width: 90%;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
