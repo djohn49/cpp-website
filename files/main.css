@@ -1,0 +1,22 @@
+body{
+    background: black;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#content{
+    width: 1000px;
+    margin: 2px auto;
+    border: 1px solid silver;
+    color silver;
+    padding: 15px;
+}
+
+h1, h2{
+    margin: 0px;
+    padding 0px;
+}
+
+#main-header{
+    text-align: center;
+}
