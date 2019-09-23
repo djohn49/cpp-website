@@ -1,7 +1,7 @@
 body{
     background: black;
     color: silver;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #content{
@@ -19,4 +19,8 @@ h1, h2{
 
 #main-header{
     text-align: center;
+}
+
+.inline-pre{
+    display: inline;
 }

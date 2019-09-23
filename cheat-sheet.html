@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./files/main.css">
+</head>
+<body>
+    <div id="content">
+        <div id="main-header"><h1>Terminal Commands Cheat Sheet</h1></div>
+        <hr>
+        <a href="./index.html">Home Page</a>
+        <hr>
+        <h2>Basic Compilation</h2>
+        <p>
+            <b>Compile:</b> <pre>g++ input_file_1.cpp input_file_2.cpp -o output_program</pre>
+            <b>Run:</b> <pre> ./output_program</pre>
+        </p>
+        <hr>
+        <h2>CMake & Make</h2>
+        <p>
+            <b>Change Directory: </b> <pre>cd new_directory_name</pre>
+            <b>Change Directory (up one level): </b> <pre>cd ..</pre>
+            <b>Rebuild Binary (do not rebuild makefiles)</b> <pre>make -j4</pre>
+            <b>Rebuild Makefiles</b> <pre>cmake ..</pre>
+        </p>
+        <hr>
+        <h2>git</h2>
+        <p>
+            <b>Stage all files: </b> <pre>git add -A</pre>
+            <b>Stage some files: </b> <pre>git add directory_name file1_name file2_name</pre>
+            <b>Unstage all files: </b> <pre>git reset</pre>
+            <b>Create commit: </b> <pre>git commit -m "commit message"</pre>
+            <b>Amend Commit: </b> <pre>git commit -a</pre>
+            <b>View Commit List: </b> <pre>git log</pre>
+            <b>Clone: </b> <pre>git clone git@github.com:user/projectname.git</pre>
+            <b>Push Commits To Github: </b> <pre>git push origin master</pre> (substitue <pre class="inline-pre">master</pre> for another branch name if using branching, otherwise ignore this parenthetical)
+        </p>
+    </div>
+</body>
+</html>
