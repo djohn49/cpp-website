@@ -1,0 +1,1 @@
+<b>Powershell Command: </b> <pre>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</pre>
