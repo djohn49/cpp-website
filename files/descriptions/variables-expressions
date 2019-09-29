@@ -1,0 +1,1 @@
+After this video, create a calculator for another formula of your choosing (e.g. F=ma, find the next term in the fibbonacci sequence given two previous terms, trigonometric functions (<pre class="inline-pre">std::sin</pre>, <pre class="inline-pre">std::cos</pre>, and <pre class="inline-pre">std::tan</pre> all exist in the cmath header)).

@@ -20,8 +20,7 @@ function onVideoLoad(){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("video-description").innerHTML =
-            this.responseText;
+            document.getElementById("video-description").innerHTML = this.responseText;
         }else if(this.readyState == 4 && this.status == 404) {
             document.getElementById("video-description").innerHTML = "<center><i>No description exists for this video.</i></center>";
         }

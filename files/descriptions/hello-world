@@ -1,0 +1,9 @@
+After this video, try compiling your own hello world program. Here's a basic program for you to copy/paste, since you haven't learned what any of this means yet:
+<pre>
+#include <iostream>
+
+int main(){
+    std::cout << "Hello World" << std::endl;
+    return 0;
+}
+</pre>
