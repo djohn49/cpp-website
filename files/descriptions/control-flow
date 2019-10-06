@@ -1,0 +1,1 @@
+Create a simple command-line calculator that asks the user for an operation (+, -, *, /), asks for two numbers, and then returns the result of that operation, and then starts again. Add some way for the user to exit the calculator.

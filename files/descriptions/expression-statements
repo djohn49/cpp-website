@@ -1,0 +1,1 @@
+Create a program that finds a random point inside a circle of a radius that the user provides. Perform the test for whether or not a point is in a circle in a function. Use a do while loop to make multiple guesses until one is right. Should your function to test if a point is in a circle of a given radius be inline? Why or why not?
